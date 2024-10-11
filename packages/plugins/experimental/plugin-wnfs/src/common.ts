@@ -56,8 +56,7 @@ export const store = (blockstore: Blockstore): WnfsBlockStore => {
   return { getBlock, hasBlock, putBlockKeyed, putBlock };
 };
 
-// TODO: Namespace per space?
-export const storeName = () => 'wnfs';
+export const storeName = () => 'dxos/wnfs';
 
 // OTHER
 // -----
